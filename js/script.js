@@ -44,7 +44,7 @@ form.addEventListener('submit', async (e) => {
       status.textContent = resultado.mensagem || 'Erro ao enviar mensagem.';
     }
   } catch (erro) {
-    status.textContent = 'Mensagem enviada com sucesso';
+    status.textContent = 'erro ao conectar com o servidor';
     console.error(erro);
   }
 });
